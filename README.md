@@ -61,8 +61,8 @@ Connect the NRF24L01 module to your ESP32 as follows:
     *   Save the file.
 
 3.  **Upload Firmware:**
-    *   Build and upload the `rf_clown_master/` project to your **master** ESP32.
-    *   Build and upload the `rf_clown_slave/` project to your **slave** ESP32.
+    *   Build and upload the `signalslayer_master/` project to your **master** ESP32.
+    *   Build and upload the `signalslayer_slave/` project to your **slave** ESP32.
 
 4.  **Operate the System:**
     *   Open the Serial Monitor for the **master** device (speed 115200).
