@@ -1,12 +1,12 @@
-# RF-Clown ESP-NOW PlatformIO
+# SignalSlayer
 
 **DISCLAIMER:** This project is for educational and research purposes only. The use of this software for jamming or interfering with wireless communications may be illegal in your country. I am not responsible for any misuse of this software. Please use it responsibly and in accordance with your local laws.
 
 ## Description
 
-RF-Clown is a master-slave signal jamming system that uses ESP32 microcontrollers, ESP-NOW for communication, and NRF24L01 modules for RF signal generation. The system consists of a master controller and one or more slave devices that can be remotely controlled to perform jamming on various frequency bands.
+SignalSlayer is a master-slave signal jamming system that uses ESP32 microcontrollers, ESP-NOW for communication, and NRF24L01 modules for RF signal generation. The system consists of a master controller and one or more slave devices that can be remotely controlled to perform jamming on various frequency bands.
 
-This project is an implementation of the RF-Clown concept using the PlatformIO IDE.
+This project is an implementation of the SignalSlayer concept using the PlatformIO IDE.
 
 ## Features
 
