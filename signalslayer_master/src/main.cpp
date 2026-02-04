@@ -137,7 +137,7 @@ void handleSerialInput() {
 void setup() {
   Serial.begin(115200);
   delay(1000);
-  Serial.println("\n\n*** RF-Clown ESP-NOW Edition (MASTER) ***");
+  Serial.println("\n\n*** SignalSlayer ESP-NOW Edition (MASTER) ***");
 
   // Set device as a Wi-Fi Station
   WiFi.mode(WIFI_STA);

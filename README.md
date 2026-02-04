@@ -19,8 +19,8 @@ This project is an implementation of the SignalSlayer concept using the Platform
 ## Directory Structure
 
 *   `esp32-mac-address/`: A simple PlatformIO project to get the MAC address of your ESP32 board.
-*   `rf_clown_master/`: The PlatformIO project for the master controller device.
-*   `rf_clown_slave/`: The PlatformIO project for the slave device.
+*   `signalslayer_master/`: The PlatformIO project for the master controller device.
+*   `signalslayer_slave/`: The PlatformIO project for the slave device.
 
 ## Hardware Requirements
 
@@ -55,7 +55,7 @@ Connect the NRF24L01 module to your ESP32 as follows:
     *   Open the Serial Monitor (speed 115200) and copy the MAC address.
 
 2.  **Configure Master:**
-    *   Open the `rf_clown_master/` project in PlatformIO.
+    *   Open the `signalslayer_master/` project in PlatformIO.
     *   Open the `src/esp_now_common.h` file.
     *   Replace the placeholder MAC address in the `slaveAddress` array with the MAC address of your slave device.
     *   Save the file.
